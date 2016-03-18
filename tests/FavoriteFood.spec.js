@@ -1,4 +1,4 @@
-describe('removeAllVowels Filter', function () {
+describe('Favorite Food Filter', function () {
 	var $controller;
 
 	beforeEach(module('app'));
@@ -7,4 +7,5 @@ describe('removeAllVowels Filter', function () {
 		$filter = $injector.get('$filter');
 	}));
 
+	
 });
