@@ -1,7 +1,7 @@
 function gender() {
-	return function (sex) {
-		return sex.filter(function (item) {
-			return item.gender === sex;
+	return function (items, gender) {
+		return items.filter(function (item) {
+			return item.gender === gender;
 		});
 	};
 }
